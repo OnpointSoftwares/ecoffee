@@ -24,6 +24,7 @@
 
      <style>
           * {
+               background-image:url('../Images/homepage/coffee_images/img.png');
                margin: 0;
                box-sizing: border-box;
           }

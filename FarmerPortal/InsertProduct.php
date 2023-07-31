@@ -22,6 +22,7 @@ $sessphonenumber = $_SESSION['phonenumber'];
         @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
         body {
+            background-image:url('../Images/homepage/coffee_images/coffeecrops.jpg');
             margin: 0;
             font-size: .9rem;
             font-weight: 400;
@@ -197,7 +198,7 @@ if (isset($_POST['insert_pro'])) {    // when button is clicked
     // getting image
     $product_image = $_FILES['product_image']['name'];
     $product_image_tmp = $_FILES['product_image']['tmp_name'];  // for server
-
+    $con=mysqli_connect("localhost","root","","impulse101");
     if (isset($_SESSION['phonenumber'])) {
         move_uploaded_file($product_image_tmp, "../Admin/product_images/$product_image");
 
@@ -219,7 +220,7 @@ if (isset($_POST['insert_pro'])) {    // when button is clicked
             echo "<script>alert('Product has been added')</script>";
             echo "<script>window.open('farmerHomepage.php','_self')</script>";
         } else {
-            echo "<script>alert('Error Uploading Data Please Check your Connections ')</script>";
+            echo "Error Uploading Data Please Check your Connections ".mysqli_error($con);
         }
     }
 }

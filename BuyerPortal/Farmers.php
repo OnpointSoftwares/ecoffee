@@ -675,7 +675,7 @@
 
     <div class="header">
 
-        <a href="BuyerHomepage.php"><img id="logo" src="../portal_files/logo.jpg"></a>
+        <a href="BuyerHomepage.php"><img id="logo" src="../portal_files/logo.png"></a>
 
         <div class="search_input">
             <form action="SearchResults.php" method="get" enctype="multipart/form-data">
@@ -731,21 +731,21 @@
     <div class="headerdown">
         <div id="show">
             <div class="sel1 sel">
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">CROPS
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">COFFEE
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu  ">
                     <?php getCrops(); ?>
                 </ul>
             </div>
             <div class="sel2 sel">
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">VEGETABLES </i>
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">COFFEE CROPS</i>
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu ">
                     <?php getVegetables(); ?>
                 </ul>
             </div>
             <div class="sel3 sel">
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">FRUITS </i>
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">COFFEE VARIETIES</i>
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu ">
                     <?php getFruits(); ?>
@@ -814,7 +814,7 @@
 
 
 
-    <div class=content_item><label style="font-size :50px; text-shadow: 1px 1px 1px gray;"><b>Farmers </b></label></div><br>
+    <div class=content_item><label style="font-size :50px; text-shadow: 1px 1px 1px gray;"><b>FARMERS</b></label></div><br>
     <hr>
 
     <style>

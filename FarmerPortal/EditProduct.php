@@ -20,7 +20,9 @@ $sessphonenumber = $_SESSION['phonenumber'];
     <title>Farmer - Insert Product</title>
     <style>
         @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-
+*{
+    background-image:url('../Images/homepage/coffee_images/img.png');
+}
         body {
             margin: 0;
             font-size: .9rem;

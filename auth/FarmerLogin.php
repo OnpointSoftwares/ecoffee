@@ -28,7 +28,7 @@ include("../Functions/functions.php");
 		@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
 		.myfooter {
-			background-color: #292b2c;
+			background-color: pink;
 
 			color: goldenrod;
 			margin-top: 15px;
@@ -52,7 +52,7 @@ include("../Functions/functions.php");
 		}
 
 		a {
-			color: goldenrod;
+			color: green;
 		}
 
 		* {
@@ -62,7 +62,7 @@ include("../Functions/functions.php");
 		}
 
 		nav {
-			background-color: #292b2c;
+			background-color:grey;
 		}
 
 		.navbar-custom {
@@ -128,6 +128,7 @@ include("../Functions/functions.php");
 		}
 
 		.logins {
+			color:green;
 			text-align: center;
 			margin top:20px;
 			margin-right: -30%;
@@ -141,7 +142,7 @@ include("../Functions/functions.php");
 			line-height: 1.6;
 			color: #212529;
 			text-align: left ! important;
-			background-color: #f5f8fa;
+			background-color:pink;
 			text-align: center;
 			background-size: 100% 100%;
 

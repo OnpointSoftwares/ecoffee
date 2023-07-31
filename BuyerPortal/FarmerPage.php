@@ -715,7 +715,7 @@
 
      <div class="header">
 
-          <a href="BuyerHomepage.php"><img id="logo" src="../portal_files/logo.jpg"></a>
+          <a href="BuyerHomepage.php"><img id="logo" src="../images/homepage/hero-img.png"></a>
 
           <div class="search_input">
                <form action="SearchResults.php" method="get" enctype="multipart/form-data">
@@ -771,21 +771,21 @@
      <div class="headerdown">
           <div id="show">
                <div class="sel1 sel">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">CROPS
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">COFFEE CROPS
                          <span class="caret"></span></button>
                     <ul class="dropdown-menu  ">
                          <?php getCrops(); ?>
                     </ul>
                </div>
                <div class="sel2 sel">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">VEGETABLES </i>
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">COFFEE PRODUCTS </i>
                          <span class="caret"></span></button>
                     <ul class="dropdown-menu ">
                          <?php getVegetables(); ?>
                     </ul>
                </div>
                <div class="sel3 sel">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">FRUITS </i>
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">COFFEE SEEDS</i>
                          <span class="caret"></span></button>
                     <ul class="dropdown-menu ">
                          <?php getFruits(); ?>
@@ -897,7 +897,7 @@
      </div>
      <div class='inputwrapper'>
           <br>
-          <a href='../BuyerPortal/BuyerProductDetails.php?id=$product_id'><img src='../Admin/product_images/$product_image' alt='Image Not Available' onerror=this.src='../Images/Website/noimage.jpg' style='height: 100px; width: 100px;'><br><br></a>
+          <a href='../BuyerPortal/BuyerProductDetails.php?id=$product_id'><img src='../Admin/product_images/$product_image' alt='Image Not Available' onerror=this.src='../Images/Website/fruitsbasket.png' style='height: 100px; width: 100px;'><br><br></a>
           <label>$product_title</label><br>
           <label>PRICE:- $product_price Rs/kg</label><br>
           <label id='shop2'></label>$product_delivery<br>Qty:-

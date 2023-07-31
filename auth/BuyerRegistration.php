@@ -83,6 +83,7 @@
     }
 
     .login {
+        background-color:pink;
         color:green;
         margin-right: -2px;
         margin-top: 12px;
@@ -102,12 +103,14 @@
     }
 
     .logins {
+        background-color:pink;
         color:green;
         text-align: center;
         margin-right: -30%;
         margin-left: 35%;
     }
     body{
+        color:green;
         margin: 0;
         font-size: .9rem;
         font-weight: 400;
@@ -126,6 +129,7 @@
 
     .my-form
     {
+        color:green;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
@@ -138,6 +142,7 @@
 
     .login-form
     {
+        color:green;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
@@ -186,6 +191,7 @@
         }
 
         .logins {
+            color:green;
             text-align: center;
             margin-right: 35%;
             padding: 15px;

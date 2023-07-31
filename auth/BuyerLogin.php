@@ -134,11 +134,12 @@ session_start();
         }
 
         body {
+            background-color:pink;
             margin: 0;
             font-size: .9rem;
             font-weight: 400;
             line-height: 1.6;
-            color: pink;
+            color: green;
             text-align: left;
             /* background-color: #f5f8fa; */
         }
